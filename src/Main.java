@@ -29,83 +29,83 @@ public class Main {
 
         //Task3
 
-        byte LudPav = 23;
-        byte AnnSerge = 27;
-        byte EkaAndre = 30;
-        short AllPep = 480;
-        short StudPep = (short) (AllPep / (LudPav + AnnSerge + EkaAndre));
+        byte ludPav = 23;
+        byte annSerge = 27;
+        byte ekaAndre = 30;
+        short allPep = 480;
+        short studPep = (short) (allPep / (ludPav + annSerge + ekaAndre));
 
-        System.out.println("На каждого ученика рассчитано " + StudPep + " листов бумаги.");
+        System.out.println("На каждого ученика рассчитано " + studPep + " листов бумаги.");
 
         //Task4
 
-        byte WorkMash = 16;
-        byte PerTime = 2;
-        short PerTwenMin = (short) (WorkMash * 10);
-        short PerDay = (short) (PerTwenMin * 72);
-        int PerThDays = (PerDay * 3);
-        int PerMonth = (PerDay * 30);
+        byte workMash = 16;
+        byte perTime = 2;
+        short perTwenMin = (short) (workMash * 10);
+        short perDay = (short) (perTwenMin * 72);
+        int perThDays = (perDay * 3);
+        int perMonth = (perDay * 30);
 
-        System.out.println("За 20 минут машина произвела " + PerTwenMin + " штук бутылок.");
-        System.out.println("За день машина произвела " + PerDay + " штук бутылок.");
-        System.out.println("За три дня машина произвела " + PerThDays + " штук бутылок.");
-        System.out.println("За месяц машина произвела " + PerMonth + " штук бутылок.");
+        System.out.println("За 20 минут машина произвела " + perTwenMin + " штук бутылок.");
+        System.out.println("За день машина произвела " + perDay + " штук бутылок.");
+        System.out.println("За три дня машина произвела " + perThDays + " штук бутылок.");
+        System.out.println("За месяц машина произвела " + perMonth + " штук бутылок.");
 
         //Task5
 
-        byte AllColor = 120;
-        byte Brown = 4;
-        byte White = 2;
-        byte AllClass = (byte) (AllColor / (Brown + White)); //20
-        byte AllBrown = (byte) (Brown * AllClass);
-        byte AllWhite = (byte) (White * AllClass);
+        byte allColor = 120;
+        byte brown = 4;
+        byte white = 2;
+        byte allClass = (byte) (allColor / (brown + white)); //20
+        byte allBrown = (byte) (brown * allClass);
+        byte allWhite = (byte) (white * allClass);
 
-        System.out.println("В школе, где " + AllClass + " классов, нужно " + AllWhite + " банок белой краски и " + AllBrown + " банок коричневой краски.");
+        System.out.println("В школе, где " + allClass + " классов, нужно " + allWhite + " банок белой краски и " + allBrown + " банок коричневой краски.");
 
         //Task6
 
-        byte Banan = 5;
-        byte BananGram = 80;
-        short MilkGram = 210;
-        byte IceCr = 2;
-        byte IceCrGram = 100;
-        byte Eggs = 4;
-        byte EggsGram = 70;
-        short AllWeightGram = (short) (Banan * BananGram + IceCr * IceCrGram + Eggs * EggsGram + MilkGram);
-        float AllWrightKg = ((float) AllWeightGram / 1000);
+        byte banan = 5;
+        byte bananGram = 80;
+        short milkGram = 210;
+        byte iceCr = 2;
+        byte iceCrGram = 100;
+        byte eggs = 4;
+        byte eggsGram = 70;
+        short allWeightGram = (short) (banan * bananGram + iceCr * iceCrGram + eggs * eggsGram + milkGram);
+        float allWrightKg = ((float) allWeightGram / 1000);
 
-        System.out.println("Вес завтрака спортсмена равняется " + AllWeightGram + " грамм или " + AllWrightKg + " килограмм.");
+        System.out.println("Вес завтрака спортсмена равняется " + allWeightGram + " грамм или " + allWrightKg + " килограмм.");
 
 
         //Task7
 
-        short NewRat1 = 250;
-        short NewRat2 = 500;
-        short MustLost = 7000;
-        short IfNewRat1 = (short) (MustLost / NewRat1);
-        short IfNewRat2 = (short) (MustLost / NewRat2);
+        short newRat1 = 250;
+        short newRat2 = 500;
+        short mustLost = 7000;
+        short ifNewRat1 = (short) (mustLost / newRat1);
+        short ifNewRat2 = (short) (mustLost / newRat2);
 
 
-        System.out.println("При диете в щадящем режиме потребуется " + IfNewRat1 + " дней и в усиленном " + IfNewRat2 + " дней.");
+        System.out.println("При диете в щадящем режиме потребуется " + ifNewRat1 + " дней и в усиленном " + ifNewRat2 + " дней.");
 
         //Task8
 
-        int Masha = 67760;
-        int Denis = 83690;
-        int Kris = 76230;
-        int CashUpM = Masha / 10;
-        int CashUpD = Denis / 10;
-        int CashUpK = Kris / 10;
-        int AllCashNowM = CashUpM + Masha;
-        int AllCashNowD = CashUpM + Denis;
-        int AllCashNowK = CashUpM + Kris;
-        short ProcOfM = (short) (AllCashNowM % Masha);
-        short ProcOfD = (short) (AllCashNowD % Masha);
-        short ProcOfK = (short) (AllCashNowK % Masha);
+        int masha = 67760;
+        int denis = 83690;
+        int kris = 76230;
+        int cashUpM = masha / 10;
+        int cashUpD = denis / 10;
+        int cashUpK = kris / 10;
+        int allCashNowM = cashUpM + masha;
+        int allCashNowD = cashUpM + denis;
+        int allCashNowK = cashUpM + kris;
+        short procOfM = (short) (allCashNowM % masha);
+        short procOfD = (short) (allCashNowD % masha);
+        short procOfK = (short) (allCashNowK % masha);
 
-        System.out.println("Маша теперь получает " + AllCashNowM + " рублей. Годовой доход вырос на " + ProcOfM + " рублей.");
-        System.out.println("Денис теперь получает " + AllCashNowD + " рублей. Годовой доход вырос на " + ProcOfD + " рублей.");
-        System.out.println("Кристина теперь получает " + AllCashNowK + " рублей. Годовой доход вырос на " + ProcOfK + " рублей.");
+        System.out.println("Маша теперь получает " + allCashNowM + " рублей. Годовой доход вырос на " + procOfM + " рублей.");
+        System.out.println("Денис теперь получает " + allCashNowD + " рублей. Годовой доход вырос на " + procOfD + " рублей.");
+        System.out.println("Кристина теперь получает " + allCashNowK + " рублей. Годовой доход вырос на " + procOfK + " рублей.");
 
 
     }
